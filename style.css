@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #e0e0e0;
+    font-family:  'Josefin Sans', sans-serif;
+}
+.navbar-brand{
+    color: #8b8888;
+    text-shadow:4px 4px #d3d3d3;
+    padding: 10px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #d3d3d3,
+             -5px -5px 10px #ededed;
+}
+
+
+/*Hero section*/
+.hero-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 20px;
+    align-items: center;
+}
+
+/*hero-imgs*/
+.her-img{
+    margin-top: 15px;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow:  8px 8px 10px #d3d3d3,
+             -8px -8px 10px #ededed;
+}
+
+/*History button */
+.btns{
+    display: grid; 
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr)); 
+}
+.h-btn{ 
+    box-shadow:  8px 8px 10px #d3d3d3,
+             -8px -8px 10px #ededed;
+}
+
+/*Phone-section*/
+.phone-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px ,1fr));
+    grid-template-rows: auto;
+    gap: 30px;
+    margin-top:30px;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*phone card */
+.phone{
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #d3d3d3,
+             -5px -5px 10px #ededed;  
+             
+}
+.img-section{
+    
+    border-radius: 10px;
+    box-shadow:  5px 5px 10px #d3d3d3,
+             -5px -5px 10px #ededed; 
+}
+
+.main-img{
+    mix-blend-mode:darken;
+    padding: 20px;
+}
+
+/* X- series */
+.x-series{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1670156256975-b3dbdd416082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.x-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+    
+}
+.xhr{
+    border: 2px solid rgba(255,255,255,0.2);
+  border-radius: 5px; 
+}
+.phone-x{
+    border-radius:20px;
+    background: rgba(255,255,255,0.2);
+-webkit-backdrop-filter: blur(6px);
+backdrop-filter: blur(6px);
+border: 1px solid rgba(255,255,255,0.25);
+padding:1%; 
+align-items: flex-start;
+}
+
+.img-section-x{
+    border-radius:20px;
+    background: rgba(255,255,255,0.2);
+-webkit-backdrop-filter: blur(6px);
+backdrop-filter: blur(6px);
+border: 1px solid rgba(255,255,255,0.25);
+    width:100%; 
+}
+.x-img{
+    mix-blend-mode:darken;
+}
